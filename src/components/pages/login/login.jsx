@@ -22,10 +22,10 @@ const Login = () => {
       return axios
         .post("http://dev.nexttruck.draketechdev.ca:3600/api/login ", userlogin)
         .then((res) => {
-          console.log(res.data);
           dispatch(login(res.data));
         })
-        .catch((err) => console.log(err));
+        .catch(
+          (err) => alert("USUARIO INCORRECTO "));
     };
   };
 
