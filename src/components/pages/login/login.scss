@@ -1,0 +1,36 @@
+.p-login{
+
+    //sizes
+    width: 100%;
+    height: 100%;
+
+
+    background: #00BBBC;
+
+    &__container{
+        width:  100% ;  
+        height: 100%;
+    }
+
+    &__rowcontent{
+        height:  100%;
+    }
+
+
+
+    &__logo{
+        position: fixed;
+        bottom: 0;
+        right:  0;
+        width: 350px;
+        height: 100px;
+    }
+
+    &__form{
+
+        &__input{
+            margin-bottom: 20px ;
+        }
+    
+    }
+}
